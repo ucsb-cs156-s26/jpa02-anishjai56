@@ -56,5 +56,3 @@ below.
     the test cases, compute jacoco report,
     upload code coverage reports to Codecov.io,
     and produce pitest artifacts.
-
-
