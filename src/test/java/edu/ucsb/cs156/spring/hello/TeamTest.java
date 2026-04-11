@@ -18,6 +18,11 @@ public class TeamTest {
     public void getName_returns_correct_name() {
        assert(team.getName().equals("test-team"));
     }
+    
+    @Test
+    public void toString_returns_correct_string() {
+        assertEquals("Team(name=test-team, members=[])", team.toString());
+    }
 
    
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
